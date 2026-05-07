@@ -568,7 +568,8 @@ You MUST always end every response with a section titled "A Note on Why This Wor
       <div style={{maxWidth:'760px',margin:'0 auto',display:'flex',flexDirection:'column',alignItems:'center',gap:'6px',textAlign:'center'}}>
         <span style={{fontWeight:500,fontSize:'14px'}}>Teach It Outside — Built for Wisconsin teachers</span>
         <span style={{opacity:0.75}}>🔒 We don't store your data. Lessons are generated via the Anthropic API and not saved. Avoid entering student names.</span>
-        <span style={{opacity:0.75}}>Questions? myco.ed.wi@gmail.com</span> <span style={{opacity:0.75}}>© 2026 MYCO LLC. All rights reserved.</span>
+        <span style={{opacity:0.75}}>Teach It Outside is currently in beta. <a href="mailto:myco.ed.wi@gmail.com" style={{color:'inherit'}}>Email</a> for feedback.</span> 
+        <span style={{opacity:0.75}}>© 2026 MYCO LLC. All rights reserved.</span>
       </div>
     </footer>
     </div>
