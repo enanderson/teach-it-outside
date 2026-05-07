@@ -364,7 +364,7 @@ You MUST always end every response with a section titled "A Note on Why This Wor
           --white: #fefdf9; --text: #2c2c2c; --text-light: #6b6b6b; --border: #d8cfc0;
         }
         body { background: var(--cream); }
-        .app { font-family: 'DM Sans', sans-serif; min-height: 100vh; background: var(--cream); color: var(--text); }
+        .app { font-family: 'DM Sans', sans-serif; min-height: 100vh; background: var(--cream); color: var(--text); display: flex; flex-direction: column; }
         .header { background: var(--moss); padding: 28px 32px 24px; position: relative; overflow: hidden; }
         .header::before { content: ''; position: absolute; bottom: -20px; left: -10%; right: -10%; height: 40px; background: var(--cream); border-radius: 50% 50% 0 0 / 100% 100% 0 0; }
         .header-inner { max-width: 760px; margin: 0 auto; position: relative; z-index: 1; }
@@ -564,7 +564,7 @@ You MUST always end every response with a section titled "A Note on Why This Wor
           </div>
         )}
      </div>
-    <footer style={{backgroundColor:'#2d4a2d',color:'rgba(255,255,255,0.85)',padding:'1.5rem 2rem',marginTop:'3rem',fontSize:'13px',lineHeight:'1.6'}}>
+    <footer style={{backgroundColor:'#2d4a2d',color:'rgba(255,255,255,0.85)',padding:'1.5rem 2rem',fontSize:'13px',lineHeight:'1.6'}}>
       <div style={{maxWidth:'760px',margin:'0 auto',display:'flex',flexDirection:'column',alignItems:'center',gap:'6px',textAlign:'center'}}>
         <span style={{fontWeight:500,fontSize:'14px'}}>Teach It Outside — Built for Wisconsin teachers</span>
         <span style={{opacity:0.75}}>🔒 We don't store your data. Lessons are generated via the Anthropic API and not saved. Avoid entering student names.</span>
