@@ -451,7 +451,7 @@ You MUST always end every response with a section titled "A Note on Why This Wor
 
       <div className="header">
         <div className="header-inner">
-          <div className="logo">Take It <span>Outside</span></div>
+          <div className="logo">Teach It <span>Outside</span></div>
           <div className="tagline">Adapt any lesson for outdoor learning · Wisconsin schools</div>
         </div>
       </div>
